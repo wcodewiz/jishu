@@ -76,7 +76,11 @@ form a{
     font-weight: bold;
     font-size: 15px;
 }
-form li .google{
+.icon{
     width: 30px;
     height: 30px;
+    justify-content: space-between;
+
+    display: flex;
+    position: relative;
 }
