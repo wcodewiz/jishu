@@ -97,6 +97,10 @@ form a{
     width: 30px;
     height: 30px;
 }
+.icon3{
+    width: 40px;
+    height: 40px;
+}
 .logo-icon{
     display: flex;
     justify-content: space-around;
