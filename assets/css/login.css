@@ -32,6 +32,7 @@ form{
     position: relative;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
     overflow-y: scroll;
     box-shadow: 10px 0px 35px #000;
     background-color: white;
@@ -65,22 +66,25 @@ form input::placeholder{
     font-weight: bold;
     font-family: poppins;
 }
+.icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+}
+
 span .fa-user{
-    position: absolute;
-    font-size: 25px;
-    top: 45px;
-    left: 29px;
-    z-index: 10;
-    padding-left: 10px;
-    padding-right: 10px;
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+    object-fit: contain;
+    object-position: center;
 }
 span .fa-lock{
-    position: absolute;
-    font-size: 25px;
-    top: 115px;
-    right: 341px;
-    z-index: 10;
-    margin-left: 10px;
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+    object-fit: contain;
+    object-position: center;
   
 }
 form button{
@@ -157,6 +161,7 @@ form h5{
     color: black;
 }
 form .create-acc{
+    position: relative;
     background-color: rgb(4, 221, 4);
     border: none;
     outline: none;
