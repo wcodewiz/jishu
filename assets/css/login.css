@@ -88,6 +88,12 @@ span .fa-lock{
     object-position: center;
   
 }
+.error_text{
+    position: relative;
+    right: 27%;
+    color: red;
+    font-family: poppins;
+}
 form button{
     background-color: var(--btn-bg-color);
     width: 90%;
