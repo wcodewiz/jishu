@@ -16,7 +16,8 @@
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    
+    display: flex;
+    justify-content: space-around;
 }
 form{
     width: 400px;
