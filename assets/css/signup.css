@@ -21,7 +21,8 @@
     justify-content: space-around;
 }
 
-.account-form {
+.account-form,
+.center-form {
     width: 40%;
     background-color: #fff;
     height: 80%;
@@ -32,6 +33,16 @@
     overflow: hidden;
     overflow-y: scroll;
 
+}
+
+.center-form {
+    overflow: hidden;
+}
+
+.center-form .form- {
+    margin: auto;
+    height: 40%;
+    margin-top: 20%;
 }
 
 .form-control {
