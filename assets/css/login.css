@@ -38,16 +38,17 @@ form{
     background-color: white;
 }
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 1.5rem;
 }
 ::-webkit-scrollbar-track{
-    background-color: white;
-    border: 2px solid #446288;
-    border-radius: 20px;
+    background-color: #000;
+    border-radius: 17px;
 }
 ::-webkit-scrollbar-thumb{
     border-radius: 1rem;
-    background-color: black;
+    background-color: var(--btn-bg-color);
+    border: 0.5rem solid transparent;
+    background-clip: content-box;
 }
 form input{
     width: 90%;
@@ -89,13 +90,16 @@ span .fa-lock{
 }
 form button{
     background-color: var(--btn-bg-color);
-    border: none;
-    outline: none;
     width: 90%;
-    padding: 13px;
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
+    padding: 18px;
+    padding-left: 39px;
+    font-size: 13px;
+    margin-top: 15px;
+    border-radius: 8px;
+    outline: none;
+    position: relative;
+    left: 10px;
+    border: none;
     color: var(--primary-color);
     border-radius: 8px;
     font-family: poppins;
