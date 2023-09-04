@@ -1,1 +1,82 @@
 @import url(index.css);
+@font-face {
+    font-family: poppins;
+    src: url('Poppins-Regular.ttf');
+}
+form{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+form input{
+    width: 90%;
+    padding: 18px;
+    padding-left: 39px;
+    font-size: 13px;
+    margin-top: 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #e4e4e4;
+}
+form input::placeholder{
+    padding-left: 3px;
+    color: black;
+    font-weight: bold;
+}
+span .fa-user{
+    position: absolute;
+    font-size: 25px;
+    top: 38px;
+    left: 29px;
+    z-index: 10;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+span .fa-lock{
+    position: absolute;
+    font-size: 25px;
+    top: 105px;
+    right: 339px;
+    z-index: 10;
+    margin-left: 10px;
+  
+}
+form button{
+    background-color: var(--btn-bg-color);
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 13px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--primary-color);
+    border-radius: 8px;
+}
+form p{
+    color: var(--other-color);
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+form a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+form li .google{
+    width: 30px;
+    height: 30px;
+}
