@@ -21,7 +21,7 @@
 }
 form{
     width: 400px;
-    height: auto;
+    height: 80%;
     padding: 10px;
     padding-top: 20px;
     position: relative;
@@ -32,8 +32,21 @@ form{
     position: relative;
     justify-content: center;
     text-align: center;
-    overflow: scroll;
+    overflow-y: scroll;
+    box-shadow: 10px 0px 35px #000;
     background-color: white;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+    border: 2px solid #446288;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background-color: black;
 }
 form input{
     width: 90%;
@@ -65,7 +78,7 @@ span .fa-lock{
     position: absolute;
     font-size: 25px;
     top: 115px;
-    right: 339px;
+    right: 341px;
     z-index: 10;
     margin-left: 10px;
   
@@ -90,7 +103,7 @@ form p{
     padding-bottom: 10px;
     font-family: poppins;
 }
-form a{
+form .ach{
     text-decoration: none;
     font-family: poppins;
     font-weight: bold;
@@ -142,4 +155,17 @@ form a{
 form h5{
     font-family: poppins;
     color: black;
+}
+form .create-acc{
+    background-color: rgb(4, 221, 4);
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 13px;
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--primary-color);
+    border-radius: 20px;
+    font-family: poppins;
 }
