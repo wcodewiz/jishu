@@ -24,14 +24,14 @@ form{
     padding: 10px;
     padding-top: 20px;
     position: relative;
-    margin-top: 30px;
+    top: 50px;
     margin-left: 30px;
-    border: 1px solid black;
     border-radius: 10px;
     align-items: center;
     position: relative;
     justify-content: center;
     text-align: center;
+    background-color: white;
 }
 form input{
     width: 90%;
@@ -52,7 +52,7 @@ form input::placeholder{
 span .fa-user{
     position: absolute;
     font-size: 25px;
-    top: 38px;
+    top: 45px;
     left: 29px;
     z-index: 10;
     padding-left: 10px;
@@ -61,7 +61,7 @@ span .fa-user{
 span .fa-lock{
     position: absolute;
     font-size: 25px;
-    top: 105px;
+    top: 115px;
     right: 339px;
     z-index: 10;
     margin-left: 10px;
