@@ -94,7 +94,7 @@ form button{
     padding: 18px;
     padding-left: 39px;
     font-size: 13px;
-    margin-top: 15px;
+    margin-top: 18px;
     border-radius: 8px;
     outline: none;
     position: relative;
@@ -178,4 +178,6 @@ form .create-acc{
     border-radius: 20px;
     font-family: poppins;
     margin-bottom: 30px;
+    position: relative;
+    bottom: 15px;
 }
