@@ -2,7 +2,7 @@
     --bg-color: #fff;
     --btn-bg-color: #446288;
     --link-color: #446288;
-    --md-color: #446288;
+    --md-color: #204a82;
     --primary-color: #fff;
     --secondary-color: #446288;
     --rare-bg: #56e866;
@@ -13,14 +13,40 @@
 * {
     padding: 0;
     margin: 0;
+    list-style-type: none;
     box-sizing: border-box;
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--black);
-    height: 700px;
+    height: 582px;
     width: 100%;
     overflow-x: hidden;
 
+}
+
+.link {
+    color: #446288;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.submit-btn {
+    background-color: var(--btn-bg-color);
+    color: var(--primary-color);
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: all 1s ease-in;
+}
+
+.submit-btn:hover {
+    background-color: var(--md-color);
+}
+
+a {
+    text-decoration: none;
 }
