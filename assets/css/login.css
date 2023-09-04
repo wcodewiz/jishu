@@ -79,8 +79,16 @@ form a{
 .icon{
     width: 30px;
     height: 30px;
-    justify-content: space-between;
-
+}
+.logo-icon{
     display: flex;
-    position: relative;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.logo-icon li{
+    
 }
