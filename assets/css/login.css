@@ -1,7 +1,7 @@
 @import url(index.css);
 @font-face {
     font-family: poppins;
-    src: url('Poppins-Regular.ttf');
+    src: url('Poppins-Bold.ttf');
 }
 .container{
     
@@ -31,6 +31,7 @@ form{
     position: relative;
     justify-content: center;
     text-align: center;
+    overflow: scroll;
     background-color: white;
 }
 form input{
@@ -48,6 +49,7 @@ form input::placeholder{
     padding-left: 3px;
     color: black;
     font-weight: bold;
+    font-family: poppins;
 }
 span .fa-user{
     position: absolute;
@@ -78,17 +80,18 @@ form button{
     font-weight: bold;
     color: var(--primary-color);
     border-radius: 8px;
+    font-family: poppins;
 }
 form p{
     color: var(--other-color);
     font-weight: bold;
     padding-top: 15px;
     padding-bottom: 10px;
-    font-family: sans-serif;
+    font-family: poppins;
 }
 form a{
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: poppins;
     font-weight: bold;
     font-size: 15px;
 }
@@ -134,4 +137,8 @@ form a{
     position: relative;
     display: flex;
     justify-content: space-around;
+}
+form h5{
+    font-family: poppins;
+    color: black;
 }
