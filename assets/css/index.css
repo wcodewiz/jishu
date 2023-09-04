@@ -1,0 +1,25 @@
+:root {
+    --bg-color: #fff;
+    --btn-bg-color: #446288;
+    --link-color: #446288;
+    --md-color: #446288;
+    --primary-color: #fff;
+    --secondary-color: #446288;
+    --rare-bg: #56e866;
+    --other-color: #730531;
+    --black: #000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--black);
+    height: 700px;
+    width: 100%;
+    overflow-x: hidden;
+}
