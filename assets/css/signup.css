@@ -55,6 +55,13 @@
     background-color: #ddd;
     border-radius: 20px;
 }
+.error_text{
+    position: relative;
+    right: 27%;
+    color: red;
+    font-family: poppins;
+    font-size: smaller;
+}
 
 .input-control {
     display: flex;

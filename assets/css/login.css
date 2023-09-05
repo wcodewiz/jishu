@@ -93,6 +93,7 @@ span .fa-lock{
     right: 27%;
     color: red;
     font-family: poppins;
+    font-size: smaller;
 }
 form button{
     background-color: var(--btn-bg-color);
@@ -186,4 +187,8 @@ form .create-acc{
     margin-bottom: 30px;
     position: relative;
     bottom: 15px;
+}
+.footer{
+    font-family: poppins;
+
 }
