@@ -89,12 +89,17 @@ span .fa-lock{
     object-position: center;
   
 }
-.error_text{
+.error_text,
+.error_text-shown {
+    display: none;
     position: relative;
-    right: 27%;
+    right: 40%;
     color: red;
     font-family: poppins;
     font-size: smaller;
+}
+.error_text-shown {
+    display: block;
 }
 form button{
     background-color: var(--btn-bg-color);
