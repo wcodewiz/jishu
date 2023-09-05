@@ -144,8 +144,16 @@
     display: flex;
     justify-content: space-around;
     font-family: poppins;
+    transition: all 0.5s linear;
 }
 
+.bottom-items li a:active{
+    background-color: lightblue;
+}
+
+.bottom-items li a:hover{
+    text-decoration: underline;
+}
 .heading {
     margin: 10px;
     font-size: large;
