@@ -93,7 +93,7 @@ span .fa-lock{
 .error_text-shown {
     display: none;
     position: relative;
-    right: 40%;
+    right: 17%;
     color: red;
     font-family: poppins;
     font-size: smaller;
