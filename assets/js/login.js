@@ -1,6 +1,6 @@
 
 const validateInput = (element) => {
-    alert(element.value)
+    console.log(element.value)
 }
 
 onMount(() => {
