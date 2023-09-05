@@ -64,5 +64,18 @@ onMount(() => {
         element.addEventListener("keydown", (ev) => validateInput(element, index, query));
     });
 
-});
+    $(`button[type*="submit"]`, (element) => {
+        element.addEventListener("click", (ev) => {
+            ev.preventDefault();
+            $(".input-control input, .input-control select", (element, index, query) => {
+                validateInput(element, index, query);
+            });
+            return false;
+        });
 
+
+
+    });
+
+
+});
