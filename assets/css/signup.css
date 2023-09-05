@@ -100,12 +100,14 @@
     border: none;
     outline: none;
     background-color: #ddd;
+    font-family: poppins;
 }
 
 ::placeholder {
     color: var(--black);
     font-weight: bold;
     padding-left: 10px;
+    font-family: poppins;
 }
 
 .account-action {
