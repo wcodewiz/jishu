@@ -1,5 +1,8 @@
 @import url("index.css");
-
+@font-face {
+    font-family: poppins;
+    src: url('Poppins-Regular.ttf');
+}
 
 .page {
     background-color: var(--btn-bg-color);
