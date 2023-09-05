@@ -57,7 +57,7 @@
 }
 .error_text{
     position: relative;
-    right: 27%;
+    right: 0;
     color: red;
     font-family: poppins;
     font-size: smaller;
