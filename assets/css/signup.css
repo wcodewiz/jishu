@@ -4,6 +4,10 @@
     src: url('Ubuntu-Light.ttf');
 }
 
+span{
+    font-family: poppins;
+}
+
 .page {
     background-color: var(--btn-bg-color);
     width: 100%;
@@ -127,7 +131,7 @@
 
 ::placeholder {
     color: var(--black);
-    font-weight: bold;
+    font-weight: bolder;
     padding-left: 10px;
     font-family: poppins;
 }
@@ -139,6 +143,18 @@
     justify-content: space-around;
 }
 
+.agreement{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link:hover{
+    text-decoration: underline;
+    opacity: .7;
+}
+.link:active{
+    background-color: lightblue;
+    color: red;
+}
 
 .logo-sections {
     position: relative;
