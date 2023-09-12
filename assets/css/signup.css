@@ -1,5 +1,12 @@
 @import url("index.css");
+@font-face {
+    font-family: poppins;
+    src: url('Ubuntu-Light.ttf');
+}
 
+span{
+    font-family: poppins;
+}
 
 .page {
     background-color: var(--btn-bg-color);
@@ -32,7 +39,29 @@
     height: 80%;
     overflow: hidden;
     overflow-y: scroll;
+    box-shadow: 10px 0 35px #000;
+}
 
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 20px;
+    max-height: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+::-webkit-scrollbar:hover{
+    width: 15px;
 }
 
 .center-form {
@@ -97,12 +126,14 @@
     border: none;
     outline: none;
     background-color: #ddd;
+    font-family: poppins;
 }
 
 ::placeholder {
     color: var(--black);
-    font-weight: bold;
+    font-weight: bolder;
     padding-left: 10px;
+    font-family: poppins;
 }
 
 .account-action {
@@ -112,6 +143,28 @@
     justify-content: space-around;
 }
 
+select{
+    border: none;
+    outline: none;
+}
+
+.agreement{
+    font-family: poppins;
+}
+
+.link{
+    color: black;
+    font-weight: 600;
+}
+
+.link:hover{
+    text-decoration: underline;
+    opacity: .7;
+}
+.link:active{
+    background-color: lightblue;
+    color: red;
+}
 
 .logo-sections {
     position: relative;
@@ -138,10 +191,20 @@
     position: relative;
     display: flex;
     justify-content: space-around;
+    font-family: poppins;
+    transition: all 0.5s linear;
 }
 
+.bottom-items li a:active{
+    background-color: lightblue;
+}
+
+.bottom-items li a:hover{
+    text-decoration: underline;
+}
 .heading {
     margin: 10px;
-    font-size: large;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: poppins;
 }
